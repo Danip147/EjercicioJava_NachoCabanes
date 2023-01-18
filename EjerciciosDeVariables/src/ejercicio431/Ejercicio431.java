@@ -8,8 +8,7 @@ import java.util.Scanner;
 
 public class Ejercicio431 {
 
-	public static void main(String[] args) {
-
+	public static void multiplica() {
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.print("Introduzca el primer número: ");
@@ -19,6 +18,11 @@ public class Ejercicio431 {
 
 		int resultado = primerNumero * segundoNumero;
 		System.out.println("El resultado de multiplicar " + primerNumero + " X " + segundoNumero + " es: " + resultado);
+
+	}
+
+	public static void main(String[] args) {
+		multiplica();
 
 	}
 
