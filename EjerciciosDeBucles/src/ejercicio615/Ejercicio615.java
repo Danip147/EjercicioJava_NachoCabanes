@@ -20,9 +20,6 @@ public class Ejercicio615 {
 		}
 		System.out.println("Contraseña correcta!");
 		
-		
-		
-		
 		sc.close();
 		
 	}
