@@ -17,9 +17,9 @@ public class Ejercicio616 {
 	        boolean esValido = false;
 
 	        while (!esValido) {
-	            System.out.print("Ingrese su login (número entero): ");
+	            System.out.println("Ingrese su login (número entero): ");
 	            login = sc.nextInt();
-	            System.out.print("Ingrese su contraseña (número entero): ");
+	            System.out.println("Ingrese su contraseña (número entero): ");
 	            password = sc.nextInt();
 
 	            if (login == 1809 && password == 1234) {
